@@ -3,7 +3,7 @@
 
 Put Simply, it's to force an open-source Reference Implementation to be published.
 
-Note: I don't care if comercial implementations of the Reference Implementation are closed source proprietary Bull$%&#, so long as at least one reffrence implementation is properly open.
+Note: I don't care if commercial implementations of the Reference Implementation are closed source proprietary Bull$%&#, so long as at least one reference implementation is properly open.
 
 
 ## Why a Reference Implementation
