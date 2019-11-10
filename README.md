@@ -1,11 +1,20 @@
 # TensorAsic
 A high level design for a tensor processing ASIC.
 
+
+# Sales Pitch?
+MobilenetV2: 1/2 Million images per second
+
+Have I got your attention?
+
+
 # Goal
 The Goal of this project is to develop the design of an ASIC for processing Deep Learning Tensors with high efficiency. The primary end goal is the creation of a reference design, including the interface and ops that is completely open source. 
 
+
 # Commercial Use
 Contact for explanation of conditions.
+
 
 # Approach
 First, a basic processing unit will be architected and designed, before going to early stage development.
