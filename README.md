@@ -54,7 +54,7 @@ This project and any derivative projects may not be dual licensed, or have their
 
 # Contributors
 
-[You can see the (huge) list of items that need more help here.] (https://github.com/Raukk/TensorAsic/blob/master/HelpWanted.md)
+[You can see the list of items that need more help here.](https://github.com/Raukk/TensorAsic/blob/master/HelpWanted.md)
 
 By contributing, you explicitly agree to the CC0/Public Domain condition of this project's License, and agree to release your contributions when the full project is relicensed.
 
