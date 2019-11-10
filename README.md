@@ -45,8 +45,7 @@ The current license is AGPL, [more details on that choice.](https://github.com/R
 
 Once the Primary goal of creating a full open-source Reference design is completed, the license will be changed to CC0/Public Domain. 
 
-
-# Additional Terms
+## Additional Terms
 
 NO contract, NDA, Trade Secret, or other legal agreement may restrict information or actions directly related to this project (Except where Required by Law).  
 
@@ -54,6 +53,8 @@ This project and any derivative projects may not be dual licensed, or have their
 
 
 # Contributors
+
+[You can see the (huge) list of items that need more help here.] (https://github.com/Raukk/TensorAsic/blob/master/HelpWanted.md)
 
 By contributing, you explicitly agree to the CC0/Public Domain condition of this project's License, and agree to release your contributions when the full project is relicensed.
 
