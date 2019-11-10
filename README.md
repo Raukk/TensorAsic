@@ -2,7 +2,7 @@
 A high level design for a tensor processing ASIC.
 
 
-# Sales Pitch?
+# Sales Pitch
 MobilenetV2: 1/2 Million images per second
 
 Have I got your attention?
