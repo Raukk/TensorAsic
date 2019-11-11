@@ -9,6 +9,12 @@ A Virtual Systolic Array Unit stores N weights (instead of one).
 
 It stores them in a circular shift register (or similar) that loops the weight values indefinitly.
 
+## Diagrams
+
+![SVG of the VSA Unit](https://github.com/Raukk/TensorAsic/blob/master/VSA%20Unit%20Diagram.svg)
+
+![PNG of the VSA Unit](https://github.com/Raukk/TensorAsic/blob/master/VSA%20Unit%20Diagram.png)
+
 
 ## Addtional Info.
 
