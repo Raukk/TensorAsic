@@ -11,9 +11,7 @@ It stores them in a circular shift register (or similar) that loops the weight v
 
 ## Diagrams
 
-![SVG of the VSA Unit](https://github.com/Raukk/TensorAsic/blob/master/VSA%20Unit%20Diagram.svg)
-
-![PNG of the VSA Unit](https://github.com/Raukk/TensorAsic/blob/master/VSA%20Unit%20Diagram.png)
+![alt text](https://github.com/Raukk/TensorAsic/blob/master/VSA%20Unit%20Diagram.svg "SVG of the VSA Unit")
 
 
 ## Addtional Info.
