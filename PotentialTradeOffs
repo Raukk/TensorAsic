@@ -1,0 +1,71 @@
+
+# Potential Trade Offs
+
+There are always a large veriety of trade offs when desiging and building something, and often times the right choice is dependent on the desired result or expected use.
+
+
+
+## Int8 or BFloat16 (or other)
+
+The two are used in Googles TPUs, they use Int8 when Inference only is the goal and BFloat16 when training is also a goal.
+
+
+### Int8 Advantages
+
+Int8 will give you the most bang for your buck transitor wise (in an FMA), that's not likely to ever be disputed.
+
+### Int8 Disadvantages
+
+Int8 cannot be used to train or retrain a model.
+
+Int8 requires the model be carefully trained and quantitized before being deployed. 
+
+Int8 and/or quantitization cause a decrease in accuracy of the results.
+
+
+### BFLoat16 Advantages
+
+Comparable to FP32 in accuracy, range, etc. It's easy to convert between FP32 BFloat16.
+
+Smallest number of transitors for an FMA of any Float Implementation. Except maybe Float8, but that's not really comparable.
+
+### BFLoat16 Disadvantages
+
+Not really much that I'm aware of. 
+
+
+
+## Input Fall Through VS Input Cloneing
+
+This may not make much sense, but consider a 32x32 Systolic array.
+
+The same functionality could be achived with 1024 FMA's in a row, where inputs are repeated ever 32 units.
+
+Sadly, I don't have a deep enough understanding to truely evaluate their pros and cons.
+
+### Input Fall Through Advantages
+
+Simplified design, more compact design, more math with fewer inputs. 
+
+### Input Fall Through Disadvantages
+
+Cannot distinctly utilize excess compute depth.
+
+### Input Cloneing Advantages
+
+More flexibility
+
+More Compute thorughput in the Systolic Array
+
+No fall through delay
+
+### Input Cloneing Disadvantages
+
+More complexity
+
+More routing
+
+
+
+
+
