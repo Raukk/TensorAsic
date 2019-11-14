@@ -19,7 +19,11 @@ VSA Unit Diagram.png
 VSA Unit Diagram.png
 
 
-### Images Needing to be added
+### Images Needing to be Created
+
+Logo
+
+Icon
 
 Systolic Array Basics
 
