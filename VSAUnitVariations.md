@@ -32,6 +32,18 @@ This would require that it be able to consume more inputs per unit, since it wou
 I originally intended the Reference design to use this, but the variation in Input feeding seemed like it'd be more complicated. The changes to the actual VSA Unit are pretty simple, but the data infeed needs to be considered.
 
 
+## Pass Left, Pass Right, or Dynamic
+
+When accumulating the results from one unit to the next, they must be passed on, one at a time. Visually, Inputs are fed from the top and fall through the bottom, while the outputs are passed sideways. Left to Right or Right to left has no effect, in fact, the inputs don't have to come from the top. so the orientation only matters for caining Units together and their orientation on the chip.
+
+However, Dynamic passing, where any unit can pass either to the right, or the left, based on a configured bit could boost performance.
+A chain of N Units that has an output to the right and to the left, that can de dynamically split, would allow it to be 2 chains of differnet lengths. A chain of 64 Units could be 32, 32, or 16, 48 or 64, 0 which would allow it to be dynamically alocated based on need, similar to Early Exits.
+
+### My Take:
+
+This seems like it would be an easy win to improve performance, but since it adds additional complexity, especially in the compiler, I think it's best left alone until it's proven.
+
+
 ## Input fall through
 
 A Standard Systolic Array uses input fall through to partially reuse the input values. 
