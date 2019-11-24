@@ -12,8 +12,6 @@ Data Type: bfloat16
 
 VDepth: 32
 
-Fall Through Units: 3 total (2 fall through)
-
 
 
 ## Focuses and Trade-offs
