@@ -28,8 +28,15 @@ Example: for a 1 dimensional Average Pooling of pool size 3;
 
 Note: this should work for 1D and 2D Average Pools (I have not investigated 3d Pooling) 
 For 2D then pool size Accumulators must be added together to get the final output. 
-Note: Strides != Pool Size are not currently being considered.
 
+#### Limitaions
+
+Strides != Pool Size are not currently being considered.
+
+
+## Global Pooling
+
+I haven't really gone through an example, but I think this same code will work fine for Global pooling, since it's esentially a pool with Pool size = Input dimensions.
 
 
 
