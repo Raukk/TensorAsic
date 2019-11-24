@@ -18,6 +18,8 @@ VDepth: 32
 
 Forward Pass Focused; But not specifically inference/prediction focused.
 
+Focused primarily on Convolutional Neural Networks (CNNs) and the common variations there of. 
+
 Throughput Focuses; Expecting batches or streaming data, not one shot data.
 
 Not Focused on setting Weights; Because of the design and goals, it is expected that weights will only be reset a few times per second at most.
